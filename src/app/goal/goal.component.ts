@@ -23,11 +23,11 @@ import { Goal } from '../goal';
   }
 
 
-completeGoal(isComplete, index){
-    if (isComplete) {
-      this.goals.splice(index,1);
-    }
-  }
+// completeGoal(isComplete, index){
+//     if (isComplete) {
+//       this.goals.splice(index,1);
+//     }
+//   }
 
   deleteGoal(isComplete, index){
     if (isComplete) {
