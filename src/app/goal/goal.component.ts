@@ -4,7 +4,9 @@ import { Goal } from '../goal';
 @Component({
   selector: 'app-goal',
   templateUrl: './goal.component.html',
-  styleUrls: ['./goal.component.css']
+  styleUrls: ['./goal.component.css'],
+  styles: ['h6 {color: red} ']
+
 })
 
   export class GoalComponent implements OnInit {
